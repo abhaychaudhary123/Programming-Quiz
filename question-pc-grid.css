@@ -1,0 +1,40 @@
+.p-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+ justify-content:center;
+}
+
+.p-grid-container .i-1 {
+  text-align: center;
+}
+
+
+
+/*  Start of change language fixed button css
+ */
+
+
+#fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    background-color: #F48024;
+    border: #F48024;
+    color:white;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+#fixedbutton-1 {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    background-color: #F48024;
+    border: #F48024;
+    color:white;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}

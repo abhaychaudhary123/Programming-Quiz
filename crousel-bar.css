@@ -1,0 +1,58 @@
+
+.crousel-container {
+  display: grid;
+  background-color: white;
+   grid-template-columns: auto ;
+  gap: 10px;
+  justify-content:center;
+  align-items:center;
+  border:none;
+  
+}
+.crousel-item {
+   background-color: transparent;
+   color: #57666F;
+    padding:13px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+ 
+}
+
+
+@media only screen and (max-width: 600px) {
+ .crousel-item {
+   background-color: transparent;
+   color: #57666F;
+    padding:13px;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+ 
+}
+}
+
+
+@media only screen and (max-width: 187px) {
+.crousel-item {
+   background-color: transparent;
+   color: #57666F;
+    padding:13px;
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+ 
+}
+}
+
+@media only screen and (max-width: 142px) {
+.crousel-item {
+   background-color: transparent;
+   color: #57666F;
+    padding:13px;
+  font-size: 9px;
+  text-align: center;
+  font-family: 'Source Sans Pro';
+ 
+}
+}
